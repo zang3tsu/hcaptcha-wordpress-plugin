@@ -76,6 +76,8 @@ $js
 	} )();
 JS;
 
+		echo "DelayedScript: $js";
+
 		return "<script>\n" . HCaptcha::js_minify( $js ) . "\n</script>\n";
 	}
 
